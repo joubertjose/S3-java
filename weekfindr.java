@@ -1,0 +1,43 @@
+package javalabs;
+import java.util.Scanner;
+public class weekfindr {
+	public static void main(String[] arg) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter the number of the week: ");
+		int week = scanner.nextInt();
+		String day;
+	
+		switch(week) {
+	    case 0:
+	        day = "Sunday";
+	        break;
+	    case 1:
+	        day = "Monday";
+	        break;
+	    case 2:
+	        day = "Tuseday";
+	        break;
+	    case 3:
+	        day = "Wednesday";
+	        break;
+	    case 4:
+	        day = "Thursday";
+	        break;
+	    case 5:
+	        day = "Friday";
+	        break;
+	    case 6:
+	        day = "Saturday";
+	        break;
+	    case 7:
+	        day = "Sunday";
+	        break;
+	    default:
+	        day = "Invalid Entry";
+		}
+		System.out.println(day);
+		
+		scanner.close();
+		}
+	
+	}
